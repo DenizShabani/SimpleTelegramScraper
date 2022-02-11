@@ -2,6 +2,10 @@
 
 This simple python script scrapes accounts from public groups via Telegram API and saves them in a CSV file with their userID, username, groupName and groupID
 
+You can filter based on users last reacently seen.
+
+It can scrape more than 95% of users in a group!
+
 # How to use
 
 * Install Requirements
