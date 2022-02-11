@@ -9,8 +9,8 @@ GROUP_NAME = "group_username" # Group username /Ex: for t.me/random then write r
 
 c = TelegramClient("session", API_ID,API_HASH)
 c.start(PHONE)
-group = c.get_entity("cryptoshiller31")
-members = c.get_participants(GROUP_NAME)
+group = c.get_entity(GROUP_NAME)
+members = c.get_participants(group)
 print(f"\n{len(members)} users were scraped.\n")
 
 choice = input("Would you like to only obtain the users last seen recently? [y/n] ")
