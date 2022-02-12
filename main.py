@@ -15,7 +15,7 @@ group = c.get_entity(GROUP_NAME)
 
 choice = input("Would you like to only obtain the users last seen recently? [y/n] ")
 members = []
-members = c.iter_participants(group)
+members = c.iter_participants(group, aggressive = True)
 
 channel_full_info = c(GetFullChannelRequest(group))
 cont = channel_full_info.full_chat.participants_count
@@ -27,7 +27,7 @@ with open("members\\members.csv", "w", encoding='UTF-8') as f:
         for index,member in enumerate(members):
             print(f"{index+1}/{cont}", end="\r")
             if index%100 == 0:
-                sleep(1)
+                sleep(3)
             if member.status == UserStatusRecently():
                 if member.username:
                     username = member.username
@@ -38,7 +38,7 @@ with open("members\\members.csv", "w", encoding='UTF-8') as f:
         for index,member in enumerate(members):
             print(f"{index+1}/{cont}", end="\r")
             if index%100 == 0:
-                sleep(1)
+                sleep(3)
             if member.username:
                 username = member.username
             else:
