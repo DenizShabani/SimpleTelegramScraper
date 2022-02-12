@@ -6,6 +6,8 @@ You can filter based on users last reacently seen.
 
 It can scrape more than 95% of users in a group!
 
+IT ONLY WORKS FOR PUBLIC GROUPS!!!
+
 # How to use
 
 * Install Requirements
