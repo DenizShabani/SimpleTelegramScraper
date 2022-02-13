@@ -4,10 +4,10 @@ import csv
 from time import sleep
 from telethon.tl.functions.channels import GetFullChannelRequest
 
-API_ID = 17635023 # API_ID as an integer
-API_HASH = "1b9efa5b8b96eebe99e10cf243359eb1" # API_HASH as a string
-PHONE = "4917641696132" # Phone number as a string without + or 00 /Ex: 12025550163
-GROUP_NAME = "binanceexchange" # Group username /Ex: for t.me/random then write random
+API_ID = 000000000 # API_ID as an integer
+API_HASH = "0000000000000000000000" # API_HASH as a string
+PHONE = "0000000000000000" # Phone number as a string without + or 00 /Ex: 12025550163
+GROUP_NAME = "000000000000" # Group username /Ex: for t.me/random then write random
 
 c = TelegramClient("session", API_ID,API_HASH)
 c.start(PHONE)
