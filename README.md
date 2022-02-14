@@ -1,4 +1,4 @@
-# SimpleTelegramScraper
+# SimpleTelegramScraper - the best scraper on GitHub
 
 This simple python script scrapes accounts from public groups via Telegram API and saves them in a CSV file with their username, usersID, access hash, groupName, groupID and last seen online.
 
