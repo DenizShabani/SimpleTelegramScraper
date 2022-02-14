@@ -26,10 +26,10 @@ d = Style.RESET_ALL
 today = datetime.datetime.now()
 yesterday = today - datetime.timedelta(days=1)
 
-API_ID = 17635023 # API_ID as an integer
-API_HASH = "1b9efa5b8b96eebe99e10cf243359eb1" # API_HASH as a string
-PHONE = "4917641696132" # Phone number as a string without + or 00 /Ex: 12025550163
-GROUP_NAME = "cryptoshiller31" # Group username /Ex: for t.me/random then write random
+API_ID = 0000000000000 # API_ID as an integer
+API_HASH = "00000000000" # API_HASH as a string
+PHONE = "00000000000" # Phone number as a string without + or 00 /Ex: 12025550163
+GROUP_NAME = "0000000000000" # Group username /Ex: for t.me/random then write random
 
 c = TelegramClient("session", API_ID,API_HASH)
 c.start(PHONE)
