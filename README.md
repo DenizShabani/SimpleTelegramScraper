@@ -38,4 +38,4 @@ https://www.buymeacoffee.com/denizshabani
 
 * If you need any help then please write in this groupchat 
 
-- - [![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/GitHubScriptsHelp)
+- [![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/GitHubScriptsHelp)
