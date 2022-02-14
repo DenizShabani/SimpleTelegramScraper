@@ -36,4 +36,6 @@ https://www.buymeacoffee.com/denizshabani
 
 # News
 
-* If you need any help then please write in this groupchat https://t.me/GitHubScriptsHelp
+* If you need any help then please write in this groupchat 
+
+- - [![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/GitHubScriptsHelp)
