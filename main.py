@@ -9,7 +9,6 @@ Copy with credits
 '''
 
 
-from types import NoneType
 from telethon.sync import TelegramClient
 from telethon.tl.types import UserStatusRecently, ChannelParticipantsAdmins, UserStatusLastMonth, UserStatusLastWeek, UserStatusOffline, UserStatusOnline, UserStatusEmpty
 import csv
